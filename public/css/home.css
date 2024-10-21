@@ -1,0 +1,203 @@
+.background1{
+    background-color: #1E1E1E;
+}
+.download_button{
+    border-color: #0080FF; /* Change border color on hover */
+    box-shadow: 0 0 5px #0080FF, 0 0 10px #0080FF; /* Slightly increased glowing effect */
+    border-radius: 10px;
+}
+.background2{
+
+    background-color: #25282A;
+}
+.background3{
+
+    background-color: #1E1E1E;
+
+}
+.background4{
+
+    background-color:#25282A ;
+
+
+}
+.read_more:hover{
+    box-shadow: 0 0 10px #0080FF, 0 0 15px #0080FF; /* More subtle glow */
+}
+.card_box {
+    flex: 0 0 auto!important;
+    width: 30%!important;
+    transition: box-shadow 0.3s ease, border 0.3s ease; /* Smooth transition for box-shadow and border */
+    height: auto;
+    border: 3px solid transparent; /* Initial border */
+    background-color: black;
+    border-radius: 25px;
+}
+
+.card_box:hover {
+    box-shadow: 0 0 60px #0080FF, 0 0 70px #0080FF; /* Increased glow radius */
+    border: 3px solid #0080FF; /* Border color on hover */
+}
+.card2{
+
+   
+        flex: 0 0 auto;
+        width: 40.666667%;
+        cursor: pointer;
+  
+}
+
+.card2:hover .overlay {
+    visibility: visible;
+    opacity: 0.8;
+  }
+  
+
+
+
+.overlay{
+    height:90%;
+    width:100%;
+    background-color: #004D99;
+    bottom:0;
+    visibility:hidden ;
+    opacity: 0;
+    transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    border-radius: 20px;
+    box-shadow: 0 0 60px #0080FF, 0 0 70px #0080FF; /* Increased glow radius */
+    border: 3px solid #0080FF;
+    
+
+}
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  .bold{
+    font-weight:bold
+  }
+  .background5{
+
+    background-color:#1E1E1E;
+
+  }
+  .forminput{
+
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+
+
+             
+
+     
+
+
+  }
+  .forminput:hover{
+
+    box-shadow: 0 0 30px #0080FF, 0 0 40px #0080FF;
+
+    border: 3px solid #0080FF!important;
+
+  }
+  .sidebaricon{
+
+    display:none;
+  }
+  .outlinenone{
+    outline: none;
+  }
+  .black{
+    color:black;
+  }
+  .link{
+
+    cursor: pointer;
+  }
+  .link:hover {
+    color: #74C0FC; /* Change color on hover */
+    text-shadow: 0 0 5px #0080FF, 0 0 70px #0080FF; /* Glowing effect */
+}
+.link.active {
+  color: #74C0FC; /* Active color */
+  text-shadow: 0 0 5px #0080FF, 0 0 70px #0080FF; /* Glowing effect */
+}
+.sidebar{
+  width: 60%;
+  height: 100%;
+  background-color:#0080FF;
+   /* Fixes the sidebar in place */
+  top: 0; /* Positions it at the top of the screen */
+  left: -60%; /* Positions it at the left of the screen */
+  z-index: 1000; /* Ensures it's above other content */
+  visibility: hidden; /* Initially hidden */
+  opacity: 0; /* Initially transparent */
+  transition: transform 0.5s ease-in-out; /* Transition for smooth appearance */
+}
+
+.sideoverlay{
+ width:100%;
+ height:100%;
+ z-index:10;
+ visibility: visible!important;
+ position: fixed;
+ background-color: black;
+ opacity: 0.5;
+
+ 
+
+
+}
+.linksmall:hover{
+   background-color: #1E1E1E;
+}
+
+.visible {
+  visibility: visible; /* Make visible */
+  opacity: 1; /* Fully opaque */
+  transform: translateX(100%);
+}
+  @media screen and (max-width: 790px) {
+    .navbar{
+      display: none;
+    }
+    .circlepng{
+      width:84%;
+    }
+    .card_box{
+      width:100%!important;
+      margin-top:5%;
+    }
+    .card2{
+      width:100%!important;
+      margin-top:14%!important;
+    }
+    .rohit_logo{
+          width:45%!important;
+
+    }
+    .sidebaricon{
+      display: block;
+    }
+    .icon_height{
+      height:65px;
+    }
+    .overlay{
+      height:90%;
+      width:100%;
+      background-color: #004D99;
+      bottom:0;
+      visibility:hidden ;
+      opacity: 0;
+      transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
+      border-radius: 20px;
+      box-shadow: 0 0 60px #0080FF, 0 0 70px #0080FF; /* Increased glow radius */
+      border: 3px solid #0080FF;
+      font-size:14px;
+  
+  }
+   
+   
+
+}
