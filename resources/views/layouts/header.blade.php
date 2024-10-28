@@ -72,18 +72,19 @@
             </div>
 
         </div>
+        <!-- //small sidbar -->
         <div class="px-3">
             <ul class="list-unstyled mt-3">
            
             <a href="{{url('/')}}" class="text-decoration-none text-body "><li class="white py-1 px-2 linksmall" >Home</li></a>
              <hr class="mb-2 mt-0 black">
-             <a class="text-decoration-none text-body scroll-link " data-target=".background2"><li class="white py-1 px-2 linksmall" >About</li></a>
+             <a class="text-decoration-none text-body sidebar_icon" data-target=".background2"><li class="white py-1 px-2 linksmall" >About</li></a>
              <hr class="mb-2 mt-0 black">
-             <a class="text-decoration-none text-body scroll-link "data-target=".background3"><li class="white py-1 px-2 linksmall">Services</li></a>
+             <a class="text-decoration-none text-body sidebar_icon"data-target=".background3"><li class="white py-1 px-2 linksmall">Services</li></a>
              <hr class="mb-2 mt-0 black">
-             <a class="text-decoration-none text-body scroll-link "data-target=".background4"><li class="white py-1 px-2 linksmall">Portfolio</li></a>
+             <a class="text-decoration-none text-body sidebar_icon"data-target=".background4"><li class="white py-1 px-2 linksmall">Portfolio</li></a>
              <hr class="mb-2 mt-0 black">
-             <a class="text-decoration-none text-body scroll-link " data-target=".background5"><li class="white py-1 px-2 linksmall">Contact</li></a>
+             <a class="text-decoration-none text-body sidebar_icon" data-target=".background5"><li class="white py-1 px-2 linksmall">Contact</li></a>
              <hr class="mt-0 black">
 
 
