@@ -217,7 +217,7 @@
                     <a href="https://csumanage.chalksnboard.com/" style="text-decoration:none;color:inherit">
                         <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
                             <p class="text-center ">CSU ADMIN PANEL</p>
-                            The CSU admin panel is a comprehensive management interface designed for efficient handling of course and fee systems. 
+                            The CSU admin panel is a comprehensive management interface designed for efficient handling of course and fee systems.
                             <p class="text-center mt-5">
                                 <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
                             </p>
@@ -231,56 +231,38 @@
             </div>
             <div class="row d-flex justify-content-between p-1 mx-3 mt-3">
                 <div data-aos="zoom-out-up" data-aos-duration="3000" class="col-md-5  card2 white px-0 position-relative" style="height:370px">
-                    <img src="{{asset('images/mbis.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
-                    <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
-                        <p class="text-center ">OLD PORTFOLIO</p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos commodi autem ipsa aliquam nulla alias officia et illum sit asperiores.
-                        <p class="text-center mt-5">
-                            <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
-                        </p>
+                    <img src="{{asset('images/portfolio.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
+                    <a href="https://portfolio-374a4.web.app/" style="text-decoration:none;color:inherit">
+                        <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
+                            <p class="text-center ">OLD PORTFOLIO</p>
 
-                    </div>
+                            I created an old portfolio website using HTML, CSS, and JavaScript, designed to be fully responsive and provide an optimal user experience across all devices.
+                            <p class="text-center mt-5">
+                                <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
+                            </p>
+
+                        </div>
+                    </a>
+
                 </div>
                 <div data-aos="zoom-out-up" data-aos-duration="3000" class="col-md-5  card2 white position-relative px-0" style="height:370px">
-                    <img src="{{asset('images/chalksnboard.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
-                    <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
-                        <p class="text-center ">MANAV BHARTI</p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos commodi autem ipsa aliquam nulla alias officia et illum sit asperiores.
-                        <p class="text-center mt-5">
-                            <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
-                        </p>
+                    <img src="{{asset('images/movie.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
+                    <a href="https://movieapp-9a3b4.web.app/" style="text-decoration:none;color:inherit">
+                        <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
+                            <p class="text-center ">Movie App</p>
+                            I built a Movie App in React where users can browse movies and watch their trailers via YouTube integration for a seamless experience.
+                            <p class="text-center mt-5">
+                                <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
+                            </p>
 
-                    </div>
+                        </div>
+                    </a>
+
 
                 </div>
 
             </div>
-            <div class="row d-flex justify-content-between p-1 mx-3 mt-3">
-                <div data-aos="zoom-out-up" data-aos-duration="3000" class="col-md-5  card2 white px-0 position-relative" style="height:370px">
-                    <img src="{{asset('images/mbis.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
-                    <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
-                        <p class="text-center ">MANAV BHARTI</p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos commodi autem ipsa aliquam nulla alias officia et illum sit asperiores.
-                        <p class="text-center mt-5">
-                            <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
-                        </p>
 
-                    </div>
-                </div>
-                <div data-aos="zoom-out-up" data-aos-duration="3000" class="col-md-5  card2 white position-relative px-0" style="height:370px">
-                    <img src="{{asset('images/chalksnboard.jpg')}}" style="height: 100%; width: 100%; border-radius: 20px; object-fit: cover;"></img>
-                    <div class="overlay position-absolute overlay position-absolute  d-flex flex-column justify-content-center px-2 p-md-5">
-                        <p class="text-center ">MANAV BHARTI</p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos commodi autem ipsa aliquam nulla alias officia et illum sit asperiores.
-                        <p class="text-center mt-5">
-                            <i class="fa-solid fa-square-arrow-up-right" style="color: #B197FC;font-size:3rem"></i>
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
 
         </div>
 
@@ -290,52 +272,56 @@
             data-aos-duration="1000" class="white text-center inter bold py-5" style="font-size:2rem">Contact <span style="color:#0080FF">Me ?</span> </h1>
         <div class="container">
             <div class="row px-3 pb-md-5">
-                <div data-aos="fade-right" data-aos-duration="2000" class="col-md-6  white me-md-5 p-5" style="background-color:white;border-radius:12px">
-                    <h4 class="white text-dark inter">Get In touch</h4>
-                    <div class="row">
-                        <div class="col-md-6 white">
+               
+                    <div data-aos="fade-right" data-aos-duration="2000" class="col-md-6  white me-md-5 p-5" style="background-color:white;border-radius:12px">
+                        <h4 class="white text-dark inter">Get In touch</h4>
+                        <form id="formsubmit">
+                        <div class="row">
 
-                            <p class="black mb-0">First Name</p>
-                            <input class="w-100  px-3 py-2 outlinenone" placeholder="enter your first name">
+                            <div class="col-md-6 white">
+
+                                <p class="black mb-0">First Name</p>
+                                <input class="w-100  px-3 py-2 outlinenone" placeholder="enter your first name" required>
+
+
+                            </div>
+                            <div class="col-md-6 white">
+                                <p class="black mb-0">Email</p>
+                                <input class="w-100  px-3 py-2 outlinenone" placeholder="enter your mail" required>
+                            </div>
+
+                        </div>
+                        <div class="row mt-md-3 ">
+                            <div class="col-md-12 white">
+
+                                <p class="black mb-0">Subject</p>
+                                <input class="w-100 px-3 py-2 outlinenone" placeholder="enter the subject" required>
+
+
+                            </div>
 
 
                         </div>
-                        <div class="col-md-6 white">
-                            <p class="black mb-0">Email</p>
-                            <input class="w-100  px-3 py-2 outlinenone" placeholder="enter your mail">
-                        </div>
+                        <div class="row mt-md-3 ">
+                            <div class="col-md-12 white">
 
-                    </div>
-                    <div class="row mt-md-3 ">
-                        <div class="col-md-12 white">
+                                <p class="text-dark mb-0">Message</p>
+                                <textarea class="w-100 px-3  py-2 outlinenone" style="height:200px" placeholder="enter your Message" required></textarea>
 
-                            <p class="black mb-0">Subject</p>
-                            <input class="w-100 px-3 py-2 outlinenone" placeholder="enter the subject">
+
+
+                            </div>
 
 
                         </div>
-
-
-                    </div>
-                    <div class="row mt-md-3 ">
-                        <div class="col-md-12 white">
-
-                            <p class="text-dark mb-0">Message</p>
-                            <textarea class="w-100 px-3  py-2 outlinenone" style="height:200px" placeholder="enter your Message"></textarea>
-
-
-
+                        <div>
+                            <button class="btn btn-primary px-5 py-2 mt-3 download_button" style="border-radius:12px">SEND</button>
                         </div>
 
 
+
                     </div>
-                    <div>
-                        <button class="btn btn-primary px-5 py-2 mt-3 download_button" style="border-radius:12px">SEND</button>
-                    </div>
-
-
-
-                </div>
+                </form>
                 <div data-aos="fade-left" data-aos-duration="2000" class="col-md-5 mt-5 mt-md-0  white px-3 p-md-5">
                     <div class="row">
                         <div class="col-md-12 d-flex   " style="border-radius:10px">
@@ -393,6 +379,17 @@
 </div>
 
 <script>
+    $("#formsubmit").on("submit", function(e) {
+        e.preventDefault();
+        Swal.fire({
+            title: 'Success!',
+            text: 'Your Message was successfully sent...!!!',
+            icon: 'success',
+            confirmButtonText: 'OK'
+        });
+        $("#formsubmit")[0].reset();
+    })
+
     function toggleContent(button) {
         const extraContent = button.previousElementSibling;
         const isExpanded = extraContent.style.display === 'block';
