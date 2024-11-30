@@ -33,11 +33,12 @@
     <div class="background2">
         <div class="  mx-3 ">
             <div class="row mx-0">
-                <div data-aos="fade-right" data-aos-duration="1000"
-
-                    class="col-md-6">
-                    <img class="circlepng" src="{{asset('images/Group 2.png')}}"></img>
+                <div data-aos="fade-right" data-aos-duration="1000" class="col-md-6 position-relative">
+                    <img src="{{ asset('images/rohit.png') }}" alt="Developer" class="position-absolute"
+                        style="width: 100%; max-width: 22rem; height: auto; top: 25px;left:17%">
+                    <img class="circlepng" src="{{ asset('images/Group 2.png') }}" alt="Circle">
                 </div>
+
 
 
 
@@ -272,10 +273,10 @@
             data-aos-duration="1000" class="white text-center inter bold py-5" style="font-size:2rem">Contact <span style="color:#0080FF">Me ?</span> </h1>
         <div class="container">
             <div class="row px-3 pb-md-5">
-               
-                    <div data-aos="fade-right" data-aos-duration="2000" class="col-md-6  white me-md-5 p-5" style="background-color:white;border-radius:12px">
-                        <h4 class="white text-dark inter">Get In touch</h4>
-                        <form id="formsubmit">
+
+                <div data-aos="fade-right" data-aos-duration="2000" class="col-md-6  white me-md-5 p-5" style="background-color:white;border-radius:12px">
+                    <h4 class="white text-dark inter">Get In touch</h4>
+                    <form id="formsubmit">
                         <div class="row">
 
                             <div class="col-md-6 white">
@@ -320,7 +321,7 @@
 
 
 
-                    </div>
+                </div>
                 </form>
                 <div data-aos="fade-left" data-aos-duration="2000" class="col-md-5 mt-5 mt-md-0  white px-3 p-md-5">
                     <div class="row">
