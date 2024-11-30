@@ -11,7 +11,7 @@
                     <p class="inter bold" style="font-size:64px">Rohit Singh</p>
                     <p class="inter bold" style="font-size:32px">I'm a <span style="color:#0080FF">Full Stack Developer </span></p>
                     <p>I'm a Full Stack Developer passionate about building dynamic web applications that deliver exceptional user experiences. With expertise in PHP frameworks like Laravel and CodeIgniter, I create secure and scalable back-end solutions, complemented by my proficiency in front-end technologies such as React.js, JavaScript, jQuery, and Bootstrap. I have experience deploying applications on AWS, utilizing its services to enhance performance and reliability.</p>
-                    <button class="btn btn-primary download_button mt-4 px-5 py-2 inter" style="font-size:20px">Download CV</button>
+                    <a href="{{asset('documents/enhancedresume.pdf')}}"><button class="btn btn-primary download_button mt-4 px-5 py-2 inter" style="font-size:20px">Download CV</button></a>
                 </div>
                 <div data-aos="fade-left"
 
